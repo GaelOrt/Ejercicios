@@ -13,5 +13,5 @@ for word in text[1:]:
 else:
     counts.append([prev_word, number])
 
-final = [sub_element for element in counts for sub_element in element]
-print(*final, sep='')
+planed = [sub_element for element in counts for sub_element in element]
+print(*planed, sep='')

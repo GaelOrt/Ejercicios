@@ -8,7 +8,6 @@ def validate_int(data: str) -> int:
         return -1
 """
 
-
 def validate_int(data: str) -> int | None:
     str_input: str = input(data)
     if str_input.isdigit():

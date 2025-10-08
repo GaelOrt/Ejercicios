@@ -4,7 +4,7 @@ average: float = sum(temperatures) / len(temperatures)
 temperature_max: int = [index for index, temperature in enumerate(temperatures) if temperature == max(temperatures)][0]
 
 print(f'\nCantidad de temperaturas por encima de 30: {number_over_30}', end='\n\n')
-print(f'Media temperaturas: {average}', end='\n\n')
+print(f'Media temperaturas: {round(average, 2)}', end='\n\n')
 print(f'Indice temperatura maxima: {temperature_max}', end='\n\n')
 
 for index, temperature in enumerate(temperatures):

@@ -1,0 +1,14 @@
+{
+  "apple": {
+    "price": 19.99,
+    "quantity": 3
+  },
+  "mango": {
+    "price": 8.99,
+    "quantity": 1
+  },
+  "banana": {
+    "price": 12.89,
+    "quantity": 2
+  }
+}

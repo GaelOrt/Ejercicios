@@ -29,7 +29,7 @@ def see_dir_content() -> list[str]:
     return contenido
 
 
-def check_archive(name: str = 'main.py') -> str:
+def check_archive(name: str = 'app.py') -> str:
     ruta_archivo = Path(name)
     if ruta_archivo.is_file():
         return f'El archivo "{ruta_archivo}" existe.'

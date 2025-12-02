@@ -18,6 +18,6 @@ def validation_digit(text: str):
         write_info('Se han transformado el texto a int')
         return value
     except ValueError as e:
-        write_info('Error al transformar el texto a int')
+        write_error('Error al transformar el texto a int')
         print('No se puede convertir el texto a int:', e)
         pass
